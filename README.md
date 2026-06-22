@@ -46,6 +46,7 @@ Key concepts demonstrated:
 ---
 
 ## 📁 Project Structure
+```
 intern-manager/
 ├── frontend/
 │   ├── index.html
@@ -64,6 +65,8 @@ intern-manager/
 │   ├── delete-intern1.png
 │   └── delete-intern2.png
 └── README.md
+```
+
 
 ---
 
