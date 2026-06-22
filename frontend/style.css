@@ -1,0 +1,265 @@
+/* ===== Global Reset & Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* ===== Header ===== */
+header {
+  background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* ===== Main Container ===== */
+.container {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* ===== Form Section ===== */
+.form-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  height: fit-content;
+}
+
+.form-section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #0f3460;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s;
+  outline: none;
+}
+
+.form-group input:focus {
+  border-color: #0f3460;
+}
+
+/* ===== Buttons ===== */
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 11px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#submit-btn {
+  background-color: #0f3460;
+  color: white;
+  flex: 1;
+}
+
+#submit-btn:hover {
+  background-color: #1a1a2e;
+}
+
+#cancel-btn {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+#cancel-btn:hover {
+  background-color: #bdbdbd;
+}
+
+/* ===== Form Message ===== */
+#form-message {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  min-height: 20px;
+}
+
+/* ===== List Section ===== */
+.list-section {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.list-header h2 {
+  font-size: 1.2rem;
+  color: #0f3460;
+}
+
+.list-header button {
+  background-color: #e8f4fd;
+  color: #0f3460;
+  font-size: 0.85rem;
+  padding: 8px 15px;
+}
+
+.list-header button:hover {
+  background-color: #0f3460;
+  color: white;
+}
+
+/* ===== Loading and Error Messages ===== */
+#loading-msg {
+  text-align: center;
+  color: #888;
+  font-size: 0.95rem;
+  padding: 20px;
+}
+
+#error-msg {
+  text-align: center;
+  color: #e74c3c;
+  font-size: 0.95rem;
+  padding: 20px;
+  background-color: #ffeaea;
+  border-radius: 8px;
+}
+
+/* ===== Intern Cards ===== */
+.intern-card {
+  background: #f8faff;
+  border: 1px solid #e0e8f5;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.intern-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.intern-info h3 {
+  font-size: 1rem;
+  color: #1a1a2e;
+  margin-bottom: 5px;
+}
+
+.intern-info p {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.intern-info .batch-badge {
+  display: inline-block;
+  background-color: #0f3460;
+  color: white;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+/* ===== Card Action Buttons ===== */
+.card-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.edit-btn {
+  background-color: #f0a500;
+  color: white;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+}
+
+.edit-btn:hover {
+  background-color: #d4910a;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: white;
+  font-size: 0.85rem;
+  padding: 8px 14px;
+}
+
+.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+/* ===== No Interns Message ===== */
+.no-interns-msg {
+  text-align: center;
+  color: #aaa;
+  padding: 30px;
+  font-size: 0.95rem;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #1a1a2e;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85rem;
+  margin-top: 30px;
+}
+
+/* ===== Responsive for Mobile ===== */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
