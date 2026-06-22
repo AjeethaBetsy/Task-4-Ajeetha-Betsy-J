@@ -118,7 +118,6 @@ intern-manager/
 ## ⚙️ How to Run This Project
 
 ### Step 1 - Clone the Repository
-git clone https://github.com/YourUsername/intern-manager.git
 
 ### Step 2 - Go to Backend Folder
 cd intern-manager/backend
