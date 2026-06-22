@@ -21,17 +21,17 @@
     "batch": "2026"
   },
   {
-    "id": 1782116347496,
-    "name": "Sneha Kapoor",
-    "email": "sneha2decodelabs.coom",
-    "role": "UI/UX Designer",
-    "batch": "2026"
-  },
-  {
     "id": 1782116458377,
     "name": "Arjun Nair",
     "email": "arjun@decodelabs@gmail.com",
     "role": "Full Stack developer",
+    "batch": "2026"
+  },
+  {
+    "id": 1782145886562,
+    "name": "Sneha Kapoor",
+    "email": "sneha@decodelabs.com",
+    "role": "UI/UX Designer",
     "batch": "2026"
   }
 ]
