@@ -132,7 +132,7 @@ node server.js
 Open `frontend/index.html` with Live Server in VS Code
 
 ### Step 6 - View in Browser
-http://127.0.0.1:5500/frontend/index.html
+
 
 ---
 
